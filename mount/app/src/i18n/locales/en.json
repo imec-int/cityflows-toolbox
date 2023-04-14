@@ -1,0 +1,79 @@
+{
+  "translation": {
+    "datasets": {
+      "showOrHideDatasets": "Show / hide datasets"
+    },
+    "sensorMap": {
+      "selectedSensors": "Selected sensor(s)",
+      "selectionInstructions": "First select a sensor. Click on one or more sensors or use the area selection tools on the left.",
+      "deselectAll": "Deselect all",
+      "exploreSensorsData": "Explore sensor(s) data",
+      "polygonSelection": {
+        "buttonDraw": "{{type}} Selection"
+      }
+    },
+    "analytics": {
+      "sidebar": {
+        "modalities": "Modalities",
+        "selectModalities": "Select the modalities you are interested in",
+        "choosePerSensor": "Or choose the modalities per sensor",
+        "sensorID": "Sensor ID",
+        "timeWindows": "Time windows",
+        "configureTimeWindows": "Configure different time windows to perform the comparative analysis.",
+        "includeDaysNotPassingTests": "Include days not passing tests (Details on the summary tab)",
+        "removeTimePeriod": "Remove time window",
+        "downloadRawCsvData": "Download raw CSV data",
+        "useAsBase": "Use as base",
+        "useAsBaseHint": "If checked, this sensor will be a reference measurement. The counts for other sensors will be considered relative to this one (all modalities summed together)."
+      },
+      "dataExploration": {
+        "title": "Data exploration",
+        "trackViewTypes": {
+          "summary": "Summary",
+          "sensorsSplit": "Sensor comparison",
+          "dailyProfiles": "Daily profile",
+          "trendAnalysis" : "Trend analysis",
+          "differenceOnADailyLevel" : "Difference on a daily level",
+          "singleTrackExtrapolation" : "Single track extrapolation",
+          "multipleTracksExtrapolation" : "Multiple tracks extrapolation"
+        }
+      }
+    },
+    "common": {
+      "back": "back",
+      "from": "from",
+      "to": "to",
+      "days": "days",
+      "language": "language",
+      "dayOfWeek": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "holiday": "Holiday",
+        "non-holiday": "Non-holiday"
+      }
+    },
+    "auth": {
+      "username": "Username",
+      "password": "Password",
+      "fieldIsRequired": "{{field}} is required!",
+      "signIn": "Sign in",
+      "signOut": "Sign out"
+    },
+    "network": {
+      "error": {
+        "generic": "Something went wrong. Please try again later.",
+        "invalidCredentials": "Invalid credentials"
+      }
+    },
+    "map": {
+      "tileSet": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out"
+    }
+  }
+}

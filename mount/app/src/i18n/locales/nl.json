@@ -1,0 +1,79 @@
+{
+  "translation": {
+    "datasets": {
+      "showOrHideDatasets": "Toon / verberg datasets"
+    },
+    "sensorMap": {
+      "selectedSensors": "Geselecteerde sensor(en)",
+      "selectionInstructions": "Selecteer eerst een sensor. Klik op een of meer sensoren of gebruik de gebiedselectietools aan de linkerkant.",
+      "deselectAll": "Deselecteer alles",
+      "exploreSensorsData": "Ontdek sensor(en) gegevens",
+      "polygonSelection": {
+        "buttonDraw": "{{type}} Selectie"
+      }
+    },
+    "analytics": {
+      "sidebar": {
+        "modalities": "Modaliteiten",
+        "selectModalities": "Selecteer de modaliteit waarin u geïnteresseerd bent",
+        "choosePerSensor": "Of kies de modaliteiten per sensor",
+        "sensorID": "Sensor ID",
+        "timeWindows": "Tijdsvensters",
+        "configureTimeWindows": "Configureer verschillende tijdvensters om de vergelijkende analyse uit te voeren.",
+        "includeDaysNotPassingTests": "Inclusief dagen die niet slagen voor tests",
+        "removeTimePeriod": "Tijdvenster verwijderen",
+        "downloadRawCsvData": "Download onbewerkte CSV-gegevens",
+        "useAsBase": "Gebruik als referentie",
+        "useAsBaseHint": "Indien aangevinkt, zal deze sensor een referentie zijn. De tellingen voor de andere sensoren worden relatief ten opzichte van deze sensor beschouwd (alle modaliteiten bij elkaar opgeteld)."
+      },
+      "dataExploration": {
+        "title": "Verkenning van gegevens",
+        "trackViewTypes": {
+          "summary": "Overzicht",
+          "sensorsSplit": "Sensoren vergelijken",
+          "dailyProfiles": "Dagelijkse profielen",
+          "trendAnalysis" : "Trendanalyse",
+          "differenceOnADailyLevel" : "Verschil op dagniveau",
+          "singleTrackExtrapolation" : "Extrapolatie van enkel spoor",
+          "multipleTracksExtrapolation" : "Extrapolatie van meerdere sporen"
+        }
+      }
+    },
+    "common": {
+      "back": "terug",
+      "from": "van",
+      "to": "tot",
+      "days": "dagen",
+      "language": "taal",
+      "dayOfWeek": {
+        "monday": "Mandag",
+        "tuesday": "Dinsdag",
+        "wednesday": "Woensdag",
+        "thursday": "Donderdag",
+        "friday": "Vrijdag",
+        "saturday": "Zaterdag",
+        "sunday": "Zondag",
+        "holiday": "Feestdag",
+        "non-holiday": "Werkdag"
+      }
+    },
+    "auth": {
+      "username": "Gebruikersnaam",
+      "password": "Wachtwoord",
+      "fieldIsRequired": "{{field}} is verplicht!",
+      "signIn": "Aanmelden",
+      "signOut": "Afmelden"
+    },
+    "network": {
+      "error": {
+        "generic": "Er is iets fout gegaan. Alstublieft probeer het later opnieuw.",
+        "invalidCredentials": "Ongeldige aanmeldgegevens"
+      }
+    },
+    "map": {
+      "tileSet": "https://tile.openstreetmap.be/osmbe-nl/{z}/{x}/{y}.png",
+      "zoomIn": "Inzoomen",
+      "zoomOut": "Uitzoomen"
+    }
+  }
+}
